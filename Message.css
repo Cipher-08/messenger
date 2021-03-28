@@ -1,0 +1,44 @@
+* {
+    font-size: 15px;
+    /* background-image: url("back.jpg"); */
+}
+
+.message {
+    color: yellow;
+    padding: auto;
+    height: auto;
+    width: auto;
+}
+
+.message__user {
+    margin-left: auto !important;
+    text-align: left;
+    color: aliceblue;
+}
+
+.message__usercard {
+    background-color: rgb(51, 54, 255) !important;
+    width: fit-content;
+    margin-left: auto !important;
+    margin: 10px;
+}
+
+.message__guestcard {
+    background-color: antiquewhite !important;
+    margin: 10px !important;
+    color: yellow;
+    width: fit-content;
+    font-size: 2px !important;
+}
+
+message.username {
+    color: yellow;
+}
+
+h5 {
+    text-align: left;
+}
+
+.image {
+    height: 170px;
+}
