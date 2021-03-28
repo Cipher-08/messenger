@@ -1,0 +1,65 @@
+* {
+    font-family: serif;
+}
+
+.App {
+    text-align: center;
+}
+
+.send-button {
+    background-color: rgb(10, 16, 100);
+    color: white;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.send-button:hover {
+    background-color: rgb(202, 202, 202);
+    color: white;
+}
+
+.input {
+    background-color: white;
+    color: darkblue;
+    transition: 0.2s;
+    padding: 10px;
+    border: 0px solid #ffffff;
+}
+
+.input:hover {
+    border: 1px solid #FFFFFF;
+}
+
+.input::placeholder {
+    color: rgb(110, 110, 110);
+    /* text-align: center */
+    transition: ease-in 0.3s;
+    transform-origin: 0 50%;
+}
+
+.input::placeholder:hover {
+    color: white;
+    opacity: 0;
+}
+
+.form {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+    z-index: 1;
+    width: 100%;
+    margin: 20px;
+    background-color: rgb(126, 121, 121);
+    left: 0;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.form:hover {
+    opacity: 1;
+    cursor: pointer;
+}
